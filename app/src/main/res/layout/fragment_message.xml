@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rxd.myqq.ui.fragment.MessageFragment"
+    android:orientation="vertical">
+
+
+    <com.aspsine.irecyclerview.IRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.aspsine.irecyclerview.IRecyclerView>
+
+</LinearLayout>

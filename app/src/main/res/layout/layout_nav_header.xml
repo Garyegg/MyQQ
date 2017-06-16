@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@mipmap/nav_header">
+
+    <ImageView
+        android:id="@+id/nav_header_iv_erweima"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/icon_erweima"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"/>
+
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:id="@+id/nav_header_rl_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_header_iv_erweima">
+    
+        <com.rxd.myqq.widget.CircleImageView
+            android:id="@+id/nav_header_iv_avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_toRightOf="@+id/nav_header_iv_avatar"
+            android:id="@+id/nv_header_tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="淡丶小蛋"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:paddingLeft="5dp"
+            android:gravity="center_vertical"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/nav_header_rl_center"
+        android:id="@+id/nav_header_tv_expression"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="海阔天空"
+        android:textColor="#fff"/>
+
+</RelativeLayout>

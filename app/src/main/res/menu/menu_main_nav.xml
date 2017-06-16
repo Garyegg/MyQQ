@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="了解会员特权" android:id="@+id/nav_menu_know"></item>
+        <item android:title="QQ钱包" android:id="@+id/nav_menu_phrase"></item>
+        <item android:title="个性装扮" android:id="@+id/nav_menu_per_dec"></item>
+        <item android:title="我的收藏" android:id="@+id/nav_menu_my_collection"></item>
+        <item android:title="我的相册" android:id="@+id/nav_menu_my_photo"></item>
+        <item android:title="我的文件" android:id="@+id/nav_menu_my_file"></item>
+        <item android:title="设置" android:id="@+id/nav_menu_setting"></item>
+        <item android:title="夜间" android:id="@+id/nav_menu_day_night"></item>
+    </group>
+</menu>
